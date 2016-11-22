@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50DBB411DE40F43005E13F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F50DBB401DE40F43005E13F9 /* main.m */; };
+		F50DBB441DE40F43005E13F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F50DBB431DE40F43005E13F9 /* AppDelegate.m */; };
+		F50DBB471DE40F43005E13F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50DBB461DE40F43005E13F9 /* ViewController.m */; };
+		F50DBB4A1DE40F43005E13F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50DBB481DE40F43005E13F9 /* Main.storyboard */; };
+		F50DBB4C1DE40F43005E13F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50DBB4B1DE40F43005E13F9 /* Assets.xcassets */; };
+		F50DBB4F1DE40F43005E13F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50DBB4D1DE40F43005E13F9 /* LaunchScreen.storyboard */; };
+		F50DBB5A1DE40F43005E13F9 /* WGCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50DBB591DE40F43005E13F9 /* WGCycleScrollViewTests.m */; };
+		F50DBB651DE40F43005E13F9 /* WGCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50DBB641DE40F43005E13F9 /* WGCycleScrollViewUITests.m */; };
+		F50DBB751DE40FC2005E13F9 /* WGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F50DBB741DE40FC2005E13F9 /* WGCollectionViewCell.m */; };
+		F50DBB781DE40FF4005E13F9 /* WGCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F50DBB771DE40FF4005E13F9 /* WGCycleScrollView.m */; };
+		F50DBB7C1DE4109B005E13F9 /* UIView+WGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F50DBB7B1DE4109B005E13F9 /* UIView+WGExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F50DBB561DE40F43005E13F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50DBB341DE40F43005E13F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50DBB3B1DE40F43005E13F9;
+			remoteInfo = WGCycleScrollView;
+		};
+		F50DBB611DE40F43005E13F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50DBB341DE40F43005E13F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50DBB3B1DE40F43005E13F9;
+			remoteInfo = WGCycleScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F50DBB3C1DE40F43005E13F9 /* WGCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50DBB401DE40F43005E13F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F50DBB421DE40F43005E13F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F50DBB431DE40F43005E13F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F50DBB451DE40F43005E13F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F50DBB461DE40F43005E13F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F50DBB491DE40F43005E13F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F50DBB4B1DE40F43005E13F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F50DBB4E1DE40F43005E13F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F50DBB501DE40F43005E13F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50DBB551DE40F43005E13F9 /* WGCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50DBB591DE40F43005E13F9 /* WGCycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGCycleScrollViewTests.m; sourceTree = "<group>"; };
+		F50DBB5B1DE40F43005E13F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50DBB601DE40F43005E13F9 /* WGCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50DBB641DE40F43005E13F9 /* WGCycleScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGCycleScrollViewUITests.m; sourceTree = "<group>"; };
+		F50DBB661DE40F43005E13F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50DBB731DE40FC2005E13F9 /* WGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCollectionViewCell.h; sourceTree = "<group>"; };
+		F50DBB741DE40FC2005E13F9 /* WGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCollectionViewCell.m; sourceTree = "<group>"; };
+		F50DBB761DE40FF4005E13F9 /* WGCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCycleScrollView.h; sourceTree = "<group>"; };
+		F50DBB771DE40FF4005E13F9 /* WGCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCycleScrollView.m; sourceTree = "<group>"; };
+		F50DBB7A1DE4109B005E13F9 /* UIView+WGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WGExtension.h"; sourceTree = "<group>"; };
+		F50DBB7B1DE4109B005E13F9 /* UIView+WGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WGExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F50DBB391DE40F43005E13F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50DBB521DE40F43005E13F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50DBB5D1DE40F43005E13F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50DBB331DE40F43005E13F9 = {
+			isa = PBXGroup;
+			children = (
+				F50DBB3E1DE40F43005E13F9 /* WGCycleScrollView */,
+				F50DBB581DE40F43005E13F9 /* WGCycleScrollViewTests */,
+				F50DBB631DE40F43005E13F9 /* WGCycleScrollViewUITests */,
+				F50DBB3D1DE40F43005E13F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50DBB3D1DE40F43005E13F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F50DBB3C1DE40F43005E13F9 /* WGCycleScrollView.app */,
+				F50DBB551DE40F43005E13F9 /* WGCycleScrollViewTests.xctest */,
+				F50DBB601DE40F43005E13F9 /* WGCycleScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50DBB3E1DE40F43005E13F9 /* WGCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F50DBB721DE40F50005E13F9 /* 循环控件 */,
+				F50DBB421DE40F43005E13F9 /* AppDelegate.h */,
+				F50DBB431DE40F43005E13F9 /* AppDelegate.m */,
+				F50DBB451DE40F43005E13F9 /* ViewController.h */,
+				F50DBB461DE40F43005E13F9 /* ViewController.m */,
+				F50DBB481DE40F43005E13F9 /* Main.storyboard */,
+				F50DBB4B1DE40F43005E13F9 /* Assets.xcassets */,
+				F50DBB4D1DE40F43005E13F9 /* LaunchScreen.storyboard */,
+				F50DBB501DE40F43005E13F9 /* Info.plist */,
+				F50DBB3F1DE40F43005E13F9 /* Supporting Files */,
+			);
+			path = WGCycleScrollView;
+			sourceTree = "<group>";
+		};
+		F50DBB3F1DE40F43005E13F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F50DBB401DE40F43005E13F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F50DBB581DE40F43005E13F9 /* WGCycleScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F50DBB591DE40F43005E13F9 /* WGCycleScrollViewTests.m */,
+				F50DBB5B1DE40F43005E13F9 /* Info.plist */,
+			);
+			path = WGCycleScrollViewTests;
+			sourceTree = "<group>";
+		};
+		F50DBB631DE40F43005E13F9 /* WGCycleScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F50DBB641DE40F43005E13F9 /* WGCycleScrollViewUITests.m */,
+				F50DBB661DE40F43005E13F9 /* Info.plist */,
+			);
+			path = WGCycleScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		F50DBB721DE40F50005E13F9 /* 循环控件 */ = {
+			isa = PBXGroup;
+			children = (
+				F50DBB731DE40FC2005E13F9 /* WGCollectionViewCell.h */,
+				F50DBB741DE40FC2005E13F9 /* WGCollectionViewCell.m */,
+				F50DBB761DE40FF4005E13F9 /* WGCycleScrollView.h */,
+				F50DBB771DE40FF4005E13F9 /* WGCycleScrollView.m */,
+				F50DBB7A1DE4109B005E13F9 /* UIView+WGExtension.h */,
+				F50DBB7B1DE4109B005E13F9 /* UIView+WGExtension.m */,
+			);
+			name = "循环控件";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F50DBB3B1DE40F43005E13F9 /* WGCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50DBB691DE40F43005E13F9 /* Build configuration list for PBXNativeTarget "WGCycleScrollView" */;
+			buildPhases = (
+				F50DBB381DE40F43005E13F9 /* Sources */,
+				F50DBB391DE40F43005E13F9 /* Frameworks */,
+				F50DBB3A1DE40F43005E13F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGCycleScrollView;
+			productName = WGCycleScrollView;
+			productReference = F50DBB3C1DE40F43005E13F9 /* WGCycleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F50DBB541DE40F43005E13F9 /* WGCycleScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50DBB6C1DE40F43005E13F9 /* Build configuration list for PBXNativeTarget "WGCycleScrollViewTests" */;
+			buildPhases = (
+				F50DBB511DE40F43005E13F9 /* Sources */,
+				F50DBB521DE40F43005E13F9 /* Frameworks */,
+				F50DBB531DE40F43005E13F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50DBB571DE40F43005E13F9 /* PBXTargetDependency */,
+			);
+			name = WGCycleScrollViewTests;
+			productName = WGCycleScrollViewTests;
+			productReference = F50DBB551DE40F43005E13F9 /* WGCycleScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F50DBB5F1DE40F43005E13F9 /* WGCycleScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50DBB6F1DE40F43005E13F9 /* Build configuration list for PBXNativeTarget "WGCycleScrollViewUITests" */;
+			buildPhases = (
+				F50DBB5C1DE40F43005E13F9 /* Sources */,
+				F50DBB5D1DE40F43005E13F9 /* Frameworks */,
+				F50DBB5E1DE40F43005E13F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50DBB621DE40F43005E13F9 /* PBXTargetDependency */,
+			);
+			name = WGCycleScrollViewUITests;
+			productName = WGCycleScrollViewUITests;
+			productReference = F50DBB601DE40F43005E13F9 /* WGCycleScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50DBB341DE40F43005E13F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Wei;
+				TargetAttributes = {
+					F50DBB3B1DE40F43005E13F9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G237AHD53M;
+						ProvisioningStyle = Automatic;
+					};
+					F50DBB541DE40F43005E13F9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G237AHD53M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F50DBB3B1DE40F43005E13F9;
+					};
+					F50DBB5F1DE40F43005E13F9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G237AHD53M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F50DBB3B1DE40F43005E13F9;
+					};
+				};
+			};
+			buildConfigurationList = F50DBB371DE40F43005E13F9 /* Build configuration list for PBXProject "WGCycleScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F50DBB331DE40F43005E13F9;
+			productRefGroup = F50DBB3D1DE40F43005E13F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F50DBB3B1DE40F43005E13F9 /* WGCycleScrollView */,
+				F50DBB541DE40F43005E13F9 /* WGCycleScrollViewTests */,
+				F50DBB5F1DE40F43005E13F9 /* WGCycleScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F50DBB3A1DE40F43005E13F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50DBB4F1DE40F43005E13F9 /* LaunchScreen.storyboard in Resources */,
+				F50DBB4C1DE40F43005E13F9 /* Assets.xcassets in Resources */,
+				F50DBB4A1DE40F43005E13F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50DBB531DE40F43005E13F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50DBB5E1DE40F43005E13F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F50DBB381DE40F43005E13F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50DBB471DE40F43005E13F9 /* ViewController.m in Sources */,
+				F50DBB441DE40F43005E13F9 /* AppDelegate.m in Sources */,
+				F50DBB751DE40FC2005E13F9 /* WGCollectionViewCell.m in Sources */,
+				F50DBB411DE40F43005E13F9 /* main.m in Sources */,
+				F50DBB7C1DE4109B005E13F9 /* UIView+WGExtension.m in Sources */,
+				F50DBB781DE40FF4005E13F9 /* WGCycleScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50DBB511DE40F43005E13F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50DBB5A1DE40F43005E13F9 /* WGCycleScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50DBB5C1DE40F43005E13F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50DBB651DE40F43005E13F9 /* WGCycleScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F50DBB571DE40F43005E13F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50DBB3B1DE40F43005E13F9 /* WGCycleScrollView */;
+			targetProxy = F50DBB561DE40F43005E13F9 /* PBXContainerItemProxy */;
+		};
+		F50DBB621DE40F43005E13F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50DBB3B1DE40F43005E13F9 /* WGCycleScrollView */;
+			targetProxy = F50DBB611DE40F43005E13F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F50DBB481DE40F43005E13F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50DBB491DE40F43005E13F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F50DBB4D1DE40F43005E13F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50DBB4E1DE40F43005E13F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F50DBB671DE40F43005E13F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F50DBB681DE40F43005E13F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F50DBB6A1DE40F43005E13F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G237AHD53M;
+				INFOPLIST_FILE = WGCycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wei.WGCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F50DBB6B1DE40F43005E13F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G237AHD53M;
+				INFOPLIST_FILE = WGCycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wei.WGCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F50DBB6D1DE40F43005E13F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G237AHD53M;
+				INFOPLIST_FILE = WGCycleScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wei.WGCycleScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGCycleScrollView.app/WGCycleScrollView";
+			};
+			name = Debug;
+		};
+		F50DBB6E1DE40F43005E13F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G237AHD53M;
+				INFOPLIST_FILE = WGCycleScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wei.WGCycleScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WGCycleScrollView.app/WGCycleScrollView";
+			};
+			name = Release;
+		};
+		F50DBB701DE40F43005E13F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G237AHD53M;
+				INFOPLIST_FILE = WGCycleScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wei.WGCycleScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WGCycleScrollView;
+			};
+			name = Debug;
+		};
+		F50DBB711DE40F43005E13F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G237AHD53M;
+				INFOPLIST_FILE = WGCycleScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wei.WGCycleScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WGCycleScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F50DBB371DE40F43005E13F9 /* Build configuration list for PBXProject "WGCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50DBB671DE40F43005E13F9 /* Debug */,
+				F50DBB681DE40F43005E13F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50DBB691DE40F43005E13F9 /* Build configuration list for PBXNativeTarget "WGCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50DBB6A1DE40F43005E13F9 /* Debug */,
+				F50DBB6B1DE40F43005E13F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F50DBB6C1DE40F43005E13F9 /* Build configuration list for PBXNativeTarget "WGCycleScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50DBB6D1DE40F43005E13F9 /* Debug */,
+				F50DBB6E1DE40F43005E13F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F50DBB6F1DE40F43005E13F9 /* Build configuration list for PBXNativeTarget "WGCycleScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50DBB701DE40F43005E13F9 /* Debug */,
+				F50DBB711DE40F43005E13F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50DBB341DE40F43005E13F9 /* Project object */;
+}
