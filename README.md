@@ -1,2 +1,2 @@
 # WGCycleScrollView
-## 轮巡播放图片
+## 轮巡控件封装
